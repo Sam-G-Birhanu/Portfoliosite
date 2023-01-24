@@ -1,0 +1,47 @@
+body{
+    display: flex;
+    flex-direction: row-reverse;
+  
+  }
+  
+  #navbar{
+    border-right: solid gray;
+    margin:0 10px 10px 10px;
+  
+    padding: 10px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 471px
+    }
+    main{
+      position: absolute;
+      left: 250px;
+      padding: 15px;
+    }
+    a{
+      text-decoration: none;
+      display: block;
+      margin: 10px -12px 10px -20px; 
+      border-bottom: solid black 1px;
+      padding-left: 10px;
+    }
+    a:hover{
+      cursor: pointer;
+  } .nav-link{
+    color: black;
+  }
+  
+  
+  a:first-of-type{
+    border-top: solid black 1px;
+    border-bottom: 0;
+  }
+  code{
+    background-color: lightgray;
+  }
+  @media all{
+    #navbar{
+      position: left;
+    }
+  }

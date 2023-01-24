@@ -1,0 +1,140 @@
+body{
+  background-color: rgb(228, 224, 224);
+  font-family: 'Lato', sans-serif;
+  margin: 0;
+}
+.header{
+
+  display: block;
+  position: fixed;
+  top: 0px;
+  margin-bottom: 25vh;
+  margin-top: 0;
+  z-index: 1;
+   background-color: rgb(228, 224, 224);
+   height: 10vh;
+  }
+
+#header-img{
+  position: relative;
+  top: 2vh;
+  left: 0;
+  width: 35%;
+}
+#nav-bar{
+  display: flex;
+  position: absolute;
+  top: -1%;
+  left: 50%;
+  width: 100vw;
+  height: 10vh;
+  background-color: rgb(228, 224, 224);
+  z-index: 1;
+  
+}
+.nav-link, a{
+  text-decoration: none;
+  padding: 14px;
+  color: black;
+}
+#top{
+    text-align: center;
+    font-size: 10px;
+    font-style: normal;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20vh;
+  }
+ #features{
+   display: flex;
+   height: 80vh;
+   margin-top: 10vh;
+margin-bottom: 10vh;
+margin-left: 10vw;
+   margin-right: 10vw;
+   border: transparent solid 1px;
+   width: 80vw;
+   padding: 0;
+
+ } 
+ .icons{
+   display: flex;
+   flex-direction: column;
+   height: 100%;
+   border: 1px transparent solid;
+   
+   float :left;
+   max-width: 25%;
+   /* position: relative; */
+   margin-right: 0;
+   margin-top: 0px;
+   font-size: 2rem;
+   color: rgb(238, 161, 17);
+ }
+ #fire{
+   height: 27%;
+ }
+ #truck{
+   height: 27%;
+  
+ }
+ #battery{
+   height: 27%;
+   margin-bottom: 0;
+   padding-bottom: 0
+ }
+ .description {
+  position: relative;
+
+  margin-left:10vw;
+  margin-right: 0px;
+  width: 75%;
+  /* left: 20; */
+  text-align: justify;
+  
+  border: solid transparent 1px;
+  /* flex-wrap: wrap; */
+  overflow: auto;
+ }
+  
+  #submit{
+   background-color: rgb(238, 161, 17);
+   margin: 10px;
+   border: none;
+   padding: -3px 2px
+    }
+    #submit:hover{
+      background-color: rgb(250, 176, 37); 
+    }
+  #products{
+    display: flex;
+    /* flex-wrap: wrap; */
+    overflow: hidden;
+    margin-top: 5vh;
+  }
+  #product1, #product2, #product3{
+    border: solid black 1px; 
+    margin: 10px;
+    flex-wrap: wrap;
+    overflow: hidden;
+  }
+  footer{
+    display: flex;
+flex-wrap: wrap;
+
+  }
+  @media all {f
+    #nav-bar{
+
+  position: fixed;
+  top: 0vh;
+  }
+  /* #header{
+
+    position :fixed;
+    top: 55vh;
+    background-color: rgb(228, 224, 224);
+    z-index: 1; */
+  /* } */
+
+  }
