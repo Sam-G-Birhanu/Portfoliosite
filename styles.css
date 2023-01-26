@@ -210,18 +210,21 @@ div a{
     width: 18vw;
 }
   img{
-     width: 40vw;
-        height: 50vh;
+     width: 45vw;
+        height: 80vh;
+  }
+  footer {
+    font-size: 7px;
   }
 }
 
 @media only screen and (max-width: 320px) {
-  b {
-    font-size: 10px;
+  footer {
+    font-size: 7px;
   }
    img{
-     width: 40vw;
-        height: 50vh;
+     width: 45vw;
+        height: 80vh;
   }
   #projects{
      top: 10vh;
