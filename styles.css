@@ -191,7 +191,8 @@ div a{
 @media only screen and (max-width: 768px) {
    img{
      width: 35vw;
-        height: 50vh;
+        height: 25vh;
+     margin: 2px;
   }
 
   b {
@@ -205,8 +206,18 @@ div a{
   }
    img{
      width: 35vw;
-        height: 50vh;
+        height: 20vh;
   }
+  #projects{
+     top: 10vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 10vh;
+    justify-content: center;
+    padding: 2.5vw;
+    
+     }
 }
 
 
