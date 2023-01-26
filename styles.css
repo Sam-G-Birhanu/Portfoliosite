@@ -189,15 +189,25 @@ div a{
       }
 
 @media only screen and (max-width: 768px) {
-   img{
-     width: 35vw;
-        height: 50vh;
-     margin: 2px;
+    #projects{
+     top: 10vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 10vh;
+    justify-content: center;
+    padding: 2.5vw;
+    
+     }
+  #projects img{
+    width: 20vw;
+    height: 20vh;
+    margin: 0 10px;
+    object-fit: cover;
+    margin-top: 3vh;
   }
-
-  b {
-    font-size: 20px;
-  }
+  figcaption{ 
+    width: 18vw;
 }
 
 @media only screen and (max-width: 320px) {
