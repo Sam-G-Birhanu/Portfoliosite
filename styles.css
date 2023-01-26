@@ -191,7 +191,7 @@ div a{
 @media only screen and (max-width: 768px) {
    img{
      width: 35vw;
-        height: 25vh;
+        height: 50vh;
      margin: 2px;
   }
 
@@ -206,7 +206,7 @@ div a{
   }
    img{
      width: 35vw;
-        height: 20vh;
+        height: 50vh;
   }
   #projects{
      top: 10vh;
@@ -218,6 +218,13 @@ div a{
     padding: 2.5vw;
     
      }
+  #projects img{
+    width: 30vw;
+    height: 40vh;
+    margin: 0 10px;
+    object-fit: cover;
+    margin-top: 3vh;
+  }
 }
 
 
