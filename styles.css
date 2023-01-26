@@ -225,6 +225,8 @@ div a{
     object-fit: cover;
     margin-top: 3vh;
   }
+  figcaption{ 
+    width: 18vw;
 }
 
 
