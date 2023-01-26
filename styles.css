@@ -214,13 +214,13 @@ div a{
         height: 80vh;
   }
   footer {
-    font-size: 7px;
+    font-size: 1rem;
   }
 }
 
 @media only screen and (max-width: 320px) {
   footer {
-    font-size: 7px;
+    font-size: 1rem;
   }
    img{
      width: 45vw;
