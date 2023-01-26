@@ -209,13 +209,18 @@ div a{
   figcaption{ 
     width: 18vw;
 }
+  img{
+     width: 40vw;
+        height: 50vh;
+  }
+}
 
 @media only screen and (max-width: 320px) {
   b {
     font-size: 10px;
   }
    img{
-     width: 35vw;
+     width: 40vw;
         height: 50vh;
   }
   #projects{
