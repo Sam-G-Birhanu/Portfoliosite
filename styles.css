@@ -187,12 +187,28 @@ div a{
         width: 50%;
         padding-right: 3vw;
       }
-@media screen and (max-width: 480px) { 
-  img{
+
+@media only screen and (max-width: 768px) {
+   img{
+     width: 35vw;
+        height: 50vh;
+  }
+
+  b {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  b {
+    font-size: 10px;
+  }
+   img{
      width: 35vw;
         height: 50vh;
   }
 }
+
 
       /* make font size smaller for smaller phones */
       
