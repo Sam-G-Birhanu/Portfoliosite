@@ -187,6 +187,12 @@ div a{
         width: 50%;
         padding-right: 3vw;
       }
+@media screen and (max-width: 480px) { 
+  img{
+     width: 35vw;
+        height: 50vh;
+  }
+}
 
       /* make font size smaller for smaller phones */
       
